@@ -1,7 +1,7 @@
 using namespace std;
-#include <iostream>
+#include<iostream>
 #include<vector>
-#include <iomanip>
+#include<iomanip>
 
 class Student {
     public:
