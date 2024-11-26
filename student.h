@@ -1,7 +1,6 @@
 using namespace std;
 #include <iostream>
 #include<vector>
-#include<cmath>
 #include <iomanip>
 
 class Student {
