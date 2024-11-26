@@ -10,7 +10,6 @@ void Student::addGrade(double grade) {
 
 double Student::calculateAverage() {
 
-
     if (grades.empty()) {
         return 0.0;
     } else {
