@@ -10,12 +10,6 @@ void Student::addGrade(double grade) {
 
 double Student::calculateAverage() {
 
-// get 0.0 to stay 0.0
-// should return the average grade, or 0.0 if no grades have been added.
-// can use percision and fixed 
-
-
-
     if (grades.empty()) {
         return 0.0;
     } else {
@@ -34,5 +28,4 @@ void Student::printDetails() {
     cout << "Average Grade: "<< fixed << setprecision(2) << calculateAverage() ;
 
 }
-
 
